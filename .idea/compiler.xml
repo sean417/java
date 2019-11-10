@@ -6,12 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springstart" />
+        <module name="javaStore" />
+        <module name="store" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="springboot" target="1.5" />
-      <module name="springstart" target="1.5" />
+      <module name="java" target="1.5" />
+      <module name="javaStore" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot/springboot.iml" filepath="$PROJECT_DIR$/springboot/springboot.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springboot/spring-start/springstart.iml" filepath="$PROJECT_DIR$/springboot/spring-start/springstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaStore/javaStore.iml" filepath="$PROJECT_DIR$/javaStore/javaStore.iml" />
     </modules>
   </component>
 </project>
