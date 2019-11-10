@@ -8,6 +8,7 @@ package com.learning.java.store.performanceBenchMark;
 
 */
 
+import java.io.File;
 import java.io.RandomAccessFile;
 import java.nio.MappedByteBuffer;
 import java.nio.channels.FileChannel;
@@ -22,6 +23,7 @@ public class MappedByteBufferNio {
 
     public MappedByteBufferNio() throws Exception{
         this.aFile = new RandomAccessFile("/Users/chenyang/data/nio-data.txt", "rw");
+
         this.inChannel = aFile.getChannel();
         //将文件的前 100*1024*1024 个字节映射到内存中
         this.mappedByteBuffer=inChannel.map(FileChannel.MapMode.READ_WRITE,0,100*1024*1024);
