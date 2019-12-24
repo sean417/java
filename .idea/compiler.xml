@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="javaStore" />
+        <module name="bytecode" />
         <module name="store" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="bytecode" target="1.5" />
       <module name="java" target="1.5" />
       <module name="javaStore" target="1.5" />
     </bytecodeTargetLevel>
